@@ -1,0 +1,5 @@
+Exercice 1 : 
+1. La classe Logger est définie dans le fichier Logger.php dont le namespace est : Monolog.
+2. Oui, les classes ErrorHandler et Registry etant toutes deux définis dans le dossier src/Monolog appartiennent au meme namespace qui est : Monolog.
+3. Le namespace commun aux classes stockées dans le repertoire Handler est Monolog\Handler.
+4. Le chemin complet du fichier HostnamePreocessor est src/Monolog/Processor/HostNameProcessor .

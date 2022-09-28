@@ -3,3 +3,9 @@ Exercice 1 :
 2. Oui, les classes ErrorHandler et Registry etant toutes deux définis dans le dossier src/Monolog appartiennent au meme namespace qui est : Monolog.
 3. Le namespace commun aux classes stockées dans le repertoire Handler est Monolog\Handler.
 4. Le chemin complet du fichier HostnamePreocessor est src/Monolog/Processor/HostNameProcessor .
+5. Le chemin complet du fichier SlackRecord est src/Monolog/Handler/Slack/SlackRecord .
+6. Le fichier doit être créé dans le dossier src/Monolog/Formatter et doit être nommé JsonFormatter.php .
+7. Le nom de la classe est SqlFormatter et son namespace est Monolog\Formatter.
+8. L'impact sur le fichier est que le fichier est déplacé dans le répertoire src/Monolog/Handler/ .
+9. L'erreur peut venir d'un import mal réalisé, d'un namespace mal défini ou encore que la classe appelée n'existe pas.
+10. Avec cette modification, plus aucune classe ne sera trouvé dans le namespace, c'est pourquoi nous devons modifier le PSR-4 dans le fichier de configuration "composer.json".

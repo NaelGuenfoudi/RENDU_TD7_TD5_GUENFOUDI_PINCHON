@@ -1,8 +1,6 @@
 <?php
 use iutnc\deefy\audio\tracks\AlbumTrack;
 use iutnc\deefy\render\AlbumTrackRenderer;
-require_once 'classes/audio/tracks/AlbumTrack.php';
-require_once 'classes/render/AlbumTrackRenderer.php';
 
 //1
 //creation de deux pistes

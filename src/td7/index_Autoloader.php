@@ -1,9 +1,16 @@
 <?php
+
+use td5\Autoloader;
 use iutnc\deefy\audio\tracks\AlbumTrack;
 use iutnc\deefy\render\AlbumTrackRenderer;
-require_once 'classes/audio/tracks/AlbumTrack.php';
-require_once 'classes/render/AlbumTrackRenderer.php';
 
+require_once 'Autoloader.php';
+
+
+$loader=new Autoloader("iutnc\\deefy\\","../td5/classes/");
+$loader->register();
+$loader->loadClass("AlbumTrack");
+$loader->loadClass("AlbumTrackRenderer");
 //1
 //creation de deux pistes
 $piste1 = new AlbumTrack("placebo","../../ressources/audio/01-Im_with_you_BB-King-Lucille.mp3");

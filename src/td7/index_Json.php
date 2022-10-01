@@ -1,4 +1,6 @@
 <?php
+require "../../vendor/autoload.php";
+
 use iutnc\deefy\audio\tracks\AlbumTrack;
 use iutnc\deefy\render\AlbumTrackRenderer;
 

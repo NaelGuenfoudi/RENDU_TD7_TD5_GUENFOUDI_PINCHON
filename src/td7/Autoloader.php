@@ -17,7 +17,6 @@ class Autoloader
     public function loadClass(string $nameclass)
     {
         $path_to_file = str_replace(array($this->prefixe,'\\'),array($this->chemin,'/'),$nameclass) . '.php';//$this->chemin . '/' . $nameclass . '.php';
-        echo $path_to_file;
         if (is_file($path_to_file)) {
 
             require_once $path_to_file;
